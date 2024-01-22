@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"c:\\Users\\13967\\Desktop\\cpp\\pintia\\report5\\E.cpp","tests":[{"id":1703722556401,"input":"2\n9 3\n1 1 2 2 3 3 2 1 1\n5 3\n1 2 1 2 3","output":"YES\n1 2 3\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\13967\\Desktop\\cpp\\pintia\\report5\\E.cpp","group":"local","local":true}
