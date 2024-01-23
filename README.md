@@ -16,7 +16,7 @@ You can find the following in it:
 
 Have a nice day : )
 
-## 鲍竹涵的日常代码合集
+# 鲍竹涵的日常代码合集
 这是一个GitHub代码仓库，它完整地克隆了我桌面上的coding文件夹。我会在里面更新我日常学习，训练用的代码。
 目前主要是一些C/C++ 和少量的Python 。我目前大一，就读于软件工程专业，同时在学习icpc竞赛。
 你可以在里面找到：
