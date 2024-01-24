@@ -76,34 +76,34 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 重要更新（Important Updates）
 
-**2024年1月24日20点00分**
+**2024年1月24日20点00分**  
 
- 1. 我重构了原来Cclass的文件夹
+ 1. 我重构了原来Cclass的文件夹  
 	 
 
-> Rename "Cclass" to "CBasisAndExperiment"
-> new "CBasisAndExperiment\wwl"
-> new "CBasisAndExperiment\TestAndHomework"
-> new "CBasisAndExperiment\PintiaExperiment"
-> new "CBasisAndExperiment\FinalTestReview"
-> new "CBasisAndExperiment\ClassroomTeaching"
+> Rename "Cclass" to "CBasisAndExperiment"  
+> new "CBasisAndExperiment\wwl"  
+> new "CBasisAndExperiment\TestAndHomework"  
+> new "CBasisAndExperiment\PintiaExperiment"  
+> new "CBasisAndExperiment\FinalTestReview"  
+> new "CBasisAndExperiment\ClassroomTeaching"  
 
- 2. 补充了部分Pintia上的代码到本地
+ 2. 补充了部分Pintia上的代码到本地  
  
 
 > Including:
-> experiment1
-> experiment2.1
-> experiment2.2
-> experiment2.3
-> experiment2.4
-> experiment2.5
-> experiment3
-> experiment4.1
-> experiment4.2
-> experiment5
+> experiment1  
+> experiment2.1  
+> experiment2.2  
+> experiment2.3  
+> experiment2.4  
+> experiment2.5  
+> experiment3  
+> experiment4.1  
+> experiment4.2  
+> experiment5  
 
- 3. 文件不再以"A,B,C"命名，而是以他们的功能命名
+ 3. 文件不再以"A,B,C"命名，而是以他们的功能命名  
 
 ## 普通更新(General Updates)
 
