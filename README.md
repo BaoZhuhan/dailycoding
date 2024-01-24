@@ -31,6 +31,13 @@ Have a nice day : )
 很高兴认识你： )
 
 # 更新日志：
+
+注意：
+以下时间均为北京时间(东八区)
+Attention:
+The following times are all Beijing Time(GMT+8)
+This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
+
 ## 2024年1月24日12点31分
 更新日志：
  1. 把一些复习文件转移到了Creview(class -> Creview)
