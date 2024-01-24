@@ -19,4 +19,7 @@ int main(){
     int i;
     int h = ( i = e++);
     cout << f << g << h << e << endl;
+    int m , n = 5;
+    m = n , --n;
+    cout << m;
 }
