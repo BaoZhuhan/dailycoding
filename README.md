@@ -76,6 +76,8 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 重要更新（Important Updates）
 
+**2024年1月24日20点00分**
+
  1. 我重构了原来Cclass的文件夹
 	 
 
