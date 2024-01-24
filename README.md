@@ -32,11 +32,11 @@ Have a nice day : )
 
 # 更新日志：
 
-注意：&nbsp;
-以下时间均为北京时间(东八区)&nbsp;
-Attention:&nbsp;
-The following times are all Beijing Time(GMT+8)&nbsp;
-This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)&nbsp;
+注意：  
+以下时间均为北京时间(东八区)  
+Attention:  
+The following times are all Beijing Time(GMT+8)  
+This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)  
 
 ## 2024年1月24日12点31分
 更新日志：
