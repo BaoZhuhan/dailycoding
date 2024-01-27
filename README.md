@@ -78,12 +78,12 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 **2024年1月27日13点18分**
 
- 1. 完成了LeetCode每日一题，中等题
+ 1. 完成了LeetCode每日一题，中等题  
 
 > 二分查找（binary search）  
-> 学到了一个新东西 ， "static_cost<long long>" , 
-> 用法 “static_cast<target-type>(expression)” Returns a value of type target-type.
-> 学到了一个新东西 ， "0ll" 是longlong 的 0
+> 学到了一个新东西 ， "static_cost<long long>" ,   
+> 用法 “static_cast<target-type>(expression)” Returns a value of type target-type.  
+> 学到了一个新东西 ， "0ll" 是longlong 的 0  
 
 ## 重要更新（Important Updates）
 
