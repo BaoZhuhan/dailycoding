@@ -60,8 +60,9 @@ Have a nice day : )
 
 ## bzh的备忘录：
  1. 统计代码行数，powershell命令:  
-    `(Get-ChildItem -Recurse -File | Get-Content | Measure-Object).Count`
-
+    `(Get-ChildItem -Recurse -File | Get-Content | Measure-Object).Count`  
+    or  
+    `git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git log --author="$name" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -; done`
 
 # 更新日志：
 
