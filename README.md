@@ -77,6 +77,12 @@ The following times are all Beijing Time(GMT+8)
 
 This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
+## 重要更新（Important Updates）
+
+**2024年1月27日14点30分**
+ 1. 补充了experiment7.3 和 experiment6
+ 2. 补充了全部 FreshemenGame
+
 ## 普通更新（General Updates）
 
 **2024年1月27日13点18分**
