@@ -74,6 +74,16 @@ The following times are all Beijing Time(GMT+8)
 
 This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
+## 普通更新（General Updates）
+
+**2024年1月27日13点18分**
+
+ 1. 完成了LeetCode每日一题，中等题
+
+> 二分查找（binary search）  
+> 学到了一个新东西 ， "static_cost<long long>" , 还不知道怎么用
+> 学到了一个新东西 ， "0ll" 是longlong 的 0
+
 ## 重要更新（Important Updates）
 
 **2024年1月24日20点00分**  
