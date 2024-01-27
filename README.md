@@ -58,7 +58,10 @@ Have a nice day : )
 
 很高兴认识你： )
 
-  
+## bzh的备忘录：
+ 1. 统计代码行数，powershell命令:  
+    `(Get-ChildItem -Recurse -File | Get-Content | Measure-Object).Count`
+
 
 # 更新日志：
 
