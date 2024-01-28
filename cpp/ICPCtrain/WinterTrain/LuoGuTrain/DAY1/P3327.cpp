@@ -16,7 +16,7 @@ void merge(int x , int y){
 }
 void solve(){
     int n,m;cin >> n >> m;
-    for(int i = 1 ; i <=  n ;++i ){
+    for(int i = 1 ; i <= n ;++i ){
         pre[i] = i;
     }
     while(m--){
