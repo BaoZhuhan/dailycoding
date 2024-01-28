@@ -80,14 +80,14 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 普通更新(General Updates)
 
-**2024年1月28日21点11分**
+**2024年1月28日21点11分**  
  1.class封装的并查集  
  2.大量的错误代码  
 
  真tmd服了，都什么乱七八糟的东西，什么档次让我写了四个小时开了两道板子题，tmd最傻逼的是我抄答案都tmd抄不急，我真是服了。  
 
 
-**2024年1月28日15点02分**
+**2024年1月28日15点02分**  
 更新日志  
 
  1. kruskal最小生成树的模板代码  
