@@ -128,6 +128,12 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 普通更新(General Updates)
 
+**2024年1月28日12点51分**
+更新日志  
+
+ 1. 寒假集训第一天，学习了并查集  
+>路径压缩，按秩合并，启发式合并
+
 **2024年1月24日12点31分**
 
 更新日志：
