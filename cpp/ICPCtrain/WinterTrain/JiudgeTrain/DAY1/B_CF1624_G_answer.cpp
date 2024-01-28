@@ -49,8 +49,9 @@ void solve(){
 
 
     int ans = 0;
-    DSU dsu(n);
+    
     for(int i = 30 ; i >= 0 ; i--){
+        DSU dsu(n);
         vector<edge> nx;
         for(auto x : es){
             if(x.cost & (1ll << 1)) continue;
