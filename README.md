@@ -92,7 +92,7 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
  1. kruskal最小生成树的模板代码  
 
-**2024年1月28日12点51分**
+**2024年1月28日12点51分**  
 更新日志  
 
  1. 寒假集训第一天，学习了并查集   
@@ -100,13 +100,13 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 重要更新（Important Updates）
 
-**2024年1月27日14点30分**
+**2024年1月27日14点30分**  
  1. 补充了experiment7.3 和 experiment6
  2. 补充了全部 FreshemenGame
 
 ## 普通更新（General Updates）
 
-**2024年1月27日13点18分**
+**2024年1月27日13点18分**  
 
  1. 完成了LeetCode每日一题，中等题  
 
@@ -148,7 +148,7 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 
 
-**2024年1月24日12点31分**
+**2024年1月24日12点31分**  
 
 更新日志：
 
@@ -156,7 +156,7 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
   
 
-**2024年1月23日19点38分**
+**2024年1月23日19点38分**  
 
 更新日志：
 
