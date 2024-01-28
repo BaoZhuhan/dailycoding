@@ -128,6 +128,11 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 普通更新(General Updates)
 
+**2024年1月28日15点02分**
+更新日志
+
+ 1. kruskal最小生成树的模板代码
+
 **2024年1月28日12点51分**
 更新日志  
 
