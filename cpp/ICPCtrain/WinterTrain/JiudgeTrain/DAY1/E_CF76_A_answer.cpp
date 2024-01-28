@@ -32,30 +32,12 @@ public:
 void solve(){
     int n , m ;
     cin >> n >> m ;
-    vector<int> arr(n+1);
-    for(int i = 0  ;i < m ; i++){
-        cin >> arr[i];
-    }
-
-    struct edge{
-        int u ,v;
-        int cost;
-    };
-
-    vector<edge> es;
-    for(int i = 0 ; i < m ; i ++){
-        edge now;
-        cin >> now.u >> now.v >> now.cost;
-        es.emplace_back(now);
-    }
-
-    int miId = min_element(arr.begin() ,arr.end() ,arr.)
+    
     DSU dsu(n); 
 }
 int main(){
-    ios::sync_with_stdio(0),cin.tie(0);
-    int T = 1;
-    // cin >> T;
+    int T;
+    cin >> T;
     while(T--){
         solve();
     }

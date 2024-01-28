@@ -78,6 +78,24 @@ The following times are all Beijing Time(GMT+8)
 
 This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
+## 普通更新(General Updates)
+
+**2024年1月28日21点11分**
+ 1.class封装的并查集  
+ 2.大量的错误代码  
+
+ 真tmd服了，都什么乱七八糟的东西，什么档次让我写了四个小时开了两道板子题，tmd最傻逼的是我抄答案都tmd抄不急，我真是服了。
+**2024年1月28日15点02分**
+更新日志  
+
+ 1. kruskal最小生成树的模板代码  
+
+**2024年1月28日12点51分**
+更新日志  
+
+ 1. 寒假集训第一天，学习了并查集   
+>路径压缩，按秩合并，启发式合并  
+
 ## 重要更新（Important Updates）
 
 **2024年1月27日14点30分**
@@ -126,18 +144,7 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
  3. 文件不再以"A,B,C"命名，而是以他们的功能命名  
 
-## 普通更新(General Updates)
 
-**2024年1月28日15点02分**
-更新日志
-
- 1. kruskal最小生成树的模板代码
-
-**2024年1月28日12点51分**
-更新日志  
-
- 1. 寒假集训第一天，学习了并查集  
->路径压缩，按秩合并，启发式合并
 
 **2024年1月24日12点31分**
 
