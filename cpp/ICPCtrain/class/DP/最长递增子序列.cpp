@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
-vector<int> a;
+vector<int> d;
 int DP(int t)
 {
     int res = 0;
@@ -14,7 +14,7 @@ void solve()
     for (int i = 0; i < n; i++)
     {
         cin >> tmp;
-        a.push_back(tmp);
+        d.push_back(tmp);
     }
     int res = DP(n);
     cout << res << endl;

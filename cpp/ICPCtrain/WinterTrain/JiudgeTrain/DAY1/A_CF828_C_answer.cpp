@@ -30,6 +30,7 @@ public:
     int n ;
     vector<int> pre,sz;
 };
+
 void run(){
     int n ; cin >> n;
 
