@@ -79,6 +79,13 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 普通更新(General Updates)
 
+**2024年1月31日17点47分**  
+
+更新日志：  
+ 1.一些初等动态规划的板子题  
+> 01背包问题，DAG问题，完全背包问题，LIS问题  
+
+
 **2024年1月30日20点24分**  
 24400 lines  
   
