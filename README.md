@@ -79,6 +79,14 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ## 普通更新(General Updates)
 
+**2024年2月3日09点34分**  
+
+更新日志：  
+ 1.牛客寒假算法训练营第一场  
+   （[2024牛客寒假算法基础集训营1](https://ac.nowcoder.com/acm/contest/67741)）  
+   
+
+
 **2024年1月31日17点47分**  
 24596 Lines  
 
