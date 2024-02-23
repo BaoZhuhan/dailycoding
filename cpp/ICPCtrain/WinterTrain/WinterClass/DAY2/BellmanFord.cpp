@@ -9,7 +9,7 @@ struct edge{
 edge es[MAX_E];
 
 int d[MAX_V];
-int v , e;
+int v , mx;
 
 void bellmanford(int s){
     for(int i = 0 ; i < v ; i++){
@@ -18,7 +18,7 @@ void bellmanford(int s){
     d[s] = 0;
     while(true){
         bool update = false;
-        for(int i = 0 ; i < e ;i++){
+        for(int i = 0 ; i < mx ;i++){
             edge e = es[i];
             if(d[e.from] != inf && d[e.to] > d[e.from] + e.cost){
                 d[e.to] = d[e.from] + e.cost;
