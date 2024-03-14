@@ -26,19 +26,23 @@ public:
 };
 
 int main(){
-    Solution s;
-    vector<vector<int> > ans ;
-    int n ;
-    cin >> n;
-    vector<int> a(n);
-    for(int i = 0 ; i < n ; i ++) cin >> a[i];
-    ans = s.threeSum(a);
-    for(int i = 0 ;i < ans.size() ; i++){
-        for(int j = 0 ; j < ans[i].size() ; j++) {
-            cout << ans[i][j] << ' ';
-        }
-        cout << endl;
-    }
+    // Solution s;
+    // vector<vector<int> > ans ;
+    // int n ;
+    // cin >> n;
+    // vector<int> a(n);
+    // for(int i = 0 ; i < n ; i ++) cin >> a[i];
+    // ans = s.threeSum(a);
+    // for(int i = 0 ;i < ans.size() ; i++){
+    //     for(int j = 0 ; j < ans[i].size() ; j++) {
+    //         cout << ans[i][j] << ' ';
+    //     }
+    //     cout << endl;
+    // }
+    char p[] = "ZUCC DS 2018";
+    char *q = p;
+    char *m =(char *)((int *)q + 1);
+    printf("%s", ++m);
 
     return 0;
 }
