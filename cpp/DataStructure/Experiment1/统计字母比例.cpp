@@ -37,7 +37,7 @@ void run(){
         if(p == "-1") flag = false;
     } 
 
-        for(int i = 0 ; i < 26 ; i++){
+    for(int i = 0 ; i < 26 ; i++){
         if(ans[i] != 0 ) printf("%c %.2f\%\n",'A'+i , ((float)ans[i]/(float)sum)*100  );
     }
 }
