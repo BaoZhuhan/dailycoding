@@ -40,9 +40,25 @@ This means you can subtract 8 hours to get Greenwich Mean Time(GMT+0)
 
 ### 普通更新(General Updates)
 
-#### 2024年2月22日21点34分  
+#### 2024年3月26日19点11分
 
-BaoZhuhan       added lines: 29034, removed lines: 376, total lines: 28658  
+BaoZhuhan       added lines: 31698, removed lines: 469, total lines: 31229
+
+更新日志：
+
+ 1.天梯训练赛第一场
+
+ 2.天梯训练赛第二场
+
+ 3.数据结构实验一
+
+ 4.数据结构实验二
+
+### 普通更新(General Updates)
+
+#### 2024年2月22日21点34分
+
+BaoZhuhan       added lines: 29034, removed lines: 376, total lines: 28658
 
 更新日志：
 
