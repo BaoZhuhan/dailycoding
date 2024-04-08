@@ -100,14 +100,14 @@ void arrToList( inputdata* a, node* H ) {
 
 void print( node* H ) {
     node* p = H;
-    for (int i = 0; p != NULL ; i++) {
-        if(i != 0){
-            if(p->nxt != -1){
+    for (int i = 0; p != NULL; i++) {
+        if (i != 0) {
+            if (p->nxt != -1) {
                 printf( "%05d %d %05d\n", p->add, p->index, p->nxt );
-            }else{
-                printf( "%05d %d -1", p->add, p->index);
+            } else {
+                printf( "%05d %d -1", p->add, p->index );
             }
-            
+
         }
         p = p->next;
     }
