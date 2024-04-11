@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -59,8 +60,6 @@ int main()
 }
 /* 你的代码将被嵌在这里 */
 
-
-
 List MakeEmpty(){
     List H;
     H = (List)malloc(sizeof(struct LNode));
@@ -79,39 +78,52 @@ Position Find( List L, ElementType X ){
 
 bool Insert( List L, ElementType X, Position P ){
     List p = L;
-    int flag = 0;
+    List now;
+    now = (List)malloc(sizeof(struct LNode));
+    now->Data = X;
+
+    if(P == NULL){
+        while(p->Next != NULL){
+            p = p->Next;
+        }
+        p->Next = now;
+        now->Next = NULL;
+        return true;
+    }
+
     while(p){
         if(p->Next == P){
-            flag = 1;
-            P = p ; 
+            now->Next = P->Next;
+            p->Next = now;
+            return true;
         }
         p = p->Next;
     }
-    if(!flag) printf("Wrong Position for Insertion\n");
 
-    List now;
-    now = (List)malloc(sizeof(struct LNode));
-
-    now->Data = X;
-    now->next = P;
+    free(now);
+    printf("Wrong Position for Insertion\n");
+    return false;
 }
 
 bool Delete( List L, Position P ){
     List p = L;
 
-    if(p->Next == P) {
-        p->Next = NULL;
-        return 1;
-    }else if(p->Next == NULL){
-        return 0;
+    if(p->Next == NULL){
+        printf("Wrong Position for Deletion\n");
+        return false;
     }
+
     while(p->Next != P && p->Next != NULL){
         p = p->Next;
     }
 
-    if(p->Next == NULL) return 0;
+    if(p->Next == NULL) {
+        printf("Wrong Position for Deletion\n");
+        return false;
+    }
     else{
-        p->Next = p->Next->Next;
-        return 1;
+        List temp = p->Next;
+        p->Next = temp->Next;
+        return true;
     }
 }
