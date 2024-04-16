@@ -33,17 +33,24 @@ int main()
 }
 /* 请在这里填写答案 */
 
-//有头节点
+LinkList find(LinkList start , int x){
+    LinkList p = start->next;
+    while(p->next && p->next->data != x){
+        p = p->next;
+    }
+    return p;
+}
 
-void  pur_LinkList(LinkList L){
-    int h[10005] = {0}; 
+void del(LinkList pre){
+    pre->next = pre->next->next;
+}
+
+
+void pur_LinkList(LinkList L){
     LinkList p = L;
-
-    while(p->next != NULL){
-        if(h[p->next->data] == 1){
-            p->next = p->next->next;
-        }else{
-            h[p->next->data] = 1;
-            p = p->next;
+    while(p){
+        while(find(p,p->data)->next != NULL){
+            del(find(p,p->data));
         }
     }
+}

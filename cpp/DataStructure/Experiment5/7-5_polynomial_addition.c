@@ -7,9 +7,22 @@ typedef struct node{
     struct node *next;
 }node;
 
-int main(){
-    node H1 = read();
+node* init(){
+    node* H;
+    H = (node*)malloc(sizeof(node));
+    H->next = NULL;
+    return H;
+}
+void read(node *H){
     
+}
+
+int main(){
+    node *H1 = init();
+    node *H2 = init();
+    
+    read(H1);
+    read(H2);
     
     return 0;
 }

@@ -1,87 +1,74 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node {
+typedef struct node{
     int data;
-    struct node* next;
-}node;
+    struct node *next;
+}list;
 
-node* init() {
-    node* H;
-    H = (node*)malloc( sizeof( node ) );
+list* create(){
+    list* H;
+    H = (list*)malloc(sizeof(struct node));
     H->next = NULL;
-
     return H;
 }
 
-node* createNode( node* p, int data ) {
-    node* now;
-    now = (node*)malloc( sizeof( node ) );
-
-    now->data = data;
-    now->next = p->next;
-
-    p->next = now;
+list* insert(list *pre , int x){
+    list* now;
+    now = (list*)malloc(sizeof(list));
+    now->data = x;
+    now->next = pre->next;
+    pre->next = now;
 
     return now;
 }
 
-node* findNode( node* H, int tar ) {
-    node* p = H;
-    while (p != NULL) {
-        if (p->data == tar) return p;
+list* find(list *H , int x){
+    list *p = H->next;
+    while(p && p->data != x){
         p = p->next;
     }
-    return NULL;
+    return p;
 }
 
-node* findLoc( node* H, int tar ) {
-    node* ps = H;
-    node* pf = ps->next;
-
-    while (pf != NULL) {
-        if (pf->data > tar) return ps;
-        ps = pf;
-        pf = ps->next;
-    }
-    return ps;
-}
-
-void print( node* H ) {
-    node* p = H->next;
-    while (p->next != NULL) {
-        printf( "%d ", p->data );
+void print(list *H){
+    if(H->next == NULL) {return;}
+    list *p = H->next;
+    while(p->next){
+        printf("%d " , p->data);
         p = p->next;
     }
-    printf("%d\n", p->data);
+    printf("%d" , p->data);
 
-    return;
 }
 
-int main() {
-    int n;
-    scanf( "%d", &n );
+int main(){
+    list* H = create();
 
-    node* H = init();
-    node* p = H;
+    int n ;
+    scanf("%d" , &n);
 
-    for (int i = 0; i < n; i++) {
-        int tmp;
-        scanf( "%d", &tmp );
+    list *p = H; //我们需要一个指针
 
-        p = createNode( p, tmp );
+    for(int i = 0 ; i < n ; i ++){
+        int t;
+        scanf("%d" , &t);
+        
+        p = insert(p, t);
     }
 
-    int tar;
-    scanf( "%d", &tar );
+    int x;
+    scanf("%d" , &x);
 
-    if (findNode( H, tar ) != NULL) {
-        print( H );
-    } else {
-        node* loc = findLoc( H, tar );
-        createNode( loc, tar );
-        print( H );
+    if(find(H , x) == NULL){
+        list *p = H;
+        while(p->next->data < x){
+            p = p->next;
+        }
+        insert(p, x);
     }
+
+    print(H);
 
     return 0;
 }
