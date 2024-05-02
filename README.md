@@ -1,3 +1,8 @@
+#本代码库已经停止更新 2024年5月2日10点13分00秒  
+#Sorry , this repository has been abandoned 2024/05/02 10:31:00  
+#本代码库的功能已经被分割,你可以在BaoZhuhan的其它仓库找到对应的部分。  
+
+
 # BaoZhuhan's daily coding:
 
 This is a GitHub code repository that has cloned the "coding" folder on my desktop in its entirety. I will update it with the code I use for **daily learning and practice**.
